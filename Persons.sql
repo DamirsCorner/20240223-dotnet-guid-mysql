@@ -1,0 +1,6 @@
+CREATE TABLE Persons (
+    Id BINARY(16) NOT NULL,
+    FirstName VARCHAR(200) NOT NULL,
+    LastName VARCHAR(200) NOT NULL,
+    PRIMARY KEY (Id ASC)
+);
