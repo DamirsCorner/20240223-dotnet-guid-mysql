@@ -8,7 +8,7 @@ namespace GuidMySql;
 public class DbContextTests
 {
     private static readonly string connectionString =
-        "server=localhost;user=root;password=root;database=blogsample";
+        "server=localhost;user=root;password=root;database=blogsample;GuidFormat=Binary16";
 
     private SampleDbContext CreateDbContext()
     {
